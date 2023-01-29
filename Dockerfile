@@ -1,4 +1,4 @@
-FROM python:3.8.16-alpine
+FROM python:3.8.16
 RUN python -m pip install --upgrade pip
 RUN apt-get update
 RUN apt-get install libblas-dev liblapack-dev libatlas-base-dev gfortran
